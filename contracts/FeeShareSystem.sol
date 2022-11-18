@@ -8,8 +8,8 @@ import {PlatformTokenDistributor} from "./PlatformTokenDistributor.sol";
 
 /**
  * @title FeeSharingSystem
- * @notice It handles the distribution of fees using
- * USDT along with the auto-compounding of PlatformToken.
+ * 
+ * USDT along with the auto-compounding of PlatformToken for Splitter.
  */
 contract FeeSharingSystem is ReentrancyGuard, Ownable {
     using SafeERC20 for IERC20;
