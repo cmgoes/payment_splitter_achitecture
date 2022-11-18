@@ -6,7 +6,7 @@ import {ReentrancyGuard} from "@openzeppelin/contracts/security/ReentrancyGuard.
 import {IERC20, SafeERC20} from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 
 /**
- * @title Token Payment Splitter
+ * @title Token Payment Splitter of protocol
  * @notice It splits Treasury token to Owner EOA/VCs/Stakers treasury contracts based on shares.
  */
 
